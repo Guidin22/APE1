@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <title>Tienda de Calzado para Hombres</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+   <h1>Tienda de Calzado</h1><nav>
+      <ul>
+        <li><a href="pagina.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catalogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="#">Ofertas</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="destacados">
+      <h2>Productos Destacados</h2>
+      <div class="carousel">
+        <div class="product">
+          <img src="https://drive.google.com/uc?export=download&id=1w4NvAYYl_e43baPf9JelY_17dIORLybO" alt="Zapato Casual">
+          <h3>Zapato Casual</h3>
+          <p>Precio: $50</p>
+          <button data-id="1">Ver Detalles</button>
+        </div>
+        <div class="product">
+          <img src="https://drive.google.com/uc?export=download&id=1kNAe0mgVBcVdtTii4SVsX3Rywu2BegRV" alt="Bota de Cuero">
+          <h3>Bota de Cuero</h3>
+          <p>Precio: $80</p>
+          <button data-id="2">Ver Detalles</button>
+        </div>
+        <div class="product">
+          <img src="https://drive.google.com/uc?export=download&id=1QqpmUfQ3URx8-O1W5ayN8ldSLnPlG09B" alt="Zapatillas Deportivas">
+          <h3>Zapatillas Deportivas</h3>
+          <p>Precio: $60</p>
+          <button data-id="3">Ver Detalles</button>
+        </div>
+        <!-- Agrega más productos destacados -->
+      </div>
+    </section>
+    <section class="detalle-producto">
+      <!-- Detalles de un producto -->
+    </section>
+  </main>
+  <body>
+    <form id="Formulario">
+      <p>Deseas adquirir un par de calzado dejanos tu informacion</p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre_user" id="nombre">
+      <br/>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido_user" id="apellido">
+      <br/>
+      <label for="direccion">Direccion:</label>
+      <input type="text" name="direccion_user" id="direccion">
+      <br/>
+      <label for="correo">Correo Electronico:</label>
+      <input type="email" name="correo_user" id="correo">
+      <br/>
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" id="mensaje"></textarea>
+      <input type="submit" value="Enviar"> 
+      <input type="reset" value="Cancelar">
+      <footer>
+        <p>&copy; 2023 Tienda de Calzado</p>
+      </footer>
+    </form>
+    
+  <script src="script.js"></script>
+</body>
+</html>
